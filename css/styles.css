@@ -466,7 +466,7 @@ img {
   background: var(--color-logo);
   font-weight: 500;
   line-height: 1.5;
-  display: block;
+  display: flex;
   text-align: left;
   align-items: center;
   letter-spacing: 0.04em;
@@ -483,6 +483,7 @@ img {
   transition: background-color var(--animation);
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  gap: 16px;
 }
 
 .button-subscribe:hover,
@@ -496,12 +497,7 @@ img {
 .subscribe {
   position: relative;
 }
-.svg-subscribe {
-  position: absolute;
-  top: 50%;
-  left: 117px;
-  transform: translateY(-50%);
-}
+
 /* =============/Footer============= */
 
 /* =============Portfolio============= */
